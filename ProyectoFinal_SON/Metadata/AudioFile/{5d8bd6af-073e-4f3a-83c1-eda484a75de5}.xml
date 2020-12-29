@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{5d8bd6af-073e-4f3a-83c1-eda484a75de5}">
+		<property name="assetPath">
+			<value>Pickup - Crystal.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.3729251700680272</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a568019a-8803-467d-8d03-ad6b2e128b63}</destination>
+		</relationship>
+	</object>
+</objects>
