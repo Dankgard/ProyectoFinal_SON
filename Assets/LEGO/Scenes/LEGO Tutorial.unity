@@ -1076,6 +1076,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Id: 3856f226-f136-4555-9fd5-952931847f37
+--- !u!114 &86677713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86677703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3018403b32f5b4ba2477ef3fbb86c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &86677714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86677703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5, y: 4, z: 4.5}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1001 &103865927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1273,6 +1298,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Explode
       objectReference: {fileID: 0}
+    - target: {fileID: 5952549877573738461, guid: dec0a645588d04d8bb0ca99f70ffa743,
+        type: 3}
+      propertyPath: m_TagString
+      value: Explosion
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dec0a645588d04d8bb0ca99f70ffa743, type: 3}
 --- !u!114 &103865928 stripped
@@ -1318,6 +1348,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Id: 8e2deac5-00f4-4949-a0d7-384349544847
+--- !u!114 &103865939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103865929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Explosion
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &120007673
 PrefabInstance:
   m_ObjectHideFlags: 0

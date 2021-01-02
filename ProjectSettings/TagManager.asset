@@ -8,6 +8,7 @@ TagManager:
   - TutorialRequirement
   - Coin
   - Bird
+  - Explosion
   layers:
   - Default
   - TransparentFX

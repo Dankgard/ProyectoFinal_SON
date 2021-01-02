@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{f971502a-443d-4c38-9e6b-90cd1f919f89}">
+		<property name="assetPath">
+			<value>Explode - Monster.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a568019a-8803-467d-8d03-ad6b2e128b63}</destination>
+		</relationship>
+	</object>
+</objects>
