@@ -14,11 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/Desktop/Master.bank
   Name: Master
-  lastModified: 637451895940365781
+  lastModified: 637453805038569247
   LoadResult: 0
   FileSizes: []
   Exists: 1
 --- !u!114 &-4652487545344415021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CoinAmount
+  m_EditorClassIdentifier: 
+  Name: CoinAmount
+  Min: 0
+  Max: 15
+  Default: 0
+  ID:
+    data1: 2715350467
+    data2: 1980819418
+  Exists: 0
+--- !u!114 &-4050071070812492939
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,6 +81,70 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 647
+--- !u!114 &-3718679258432519061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-2377747238217962009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DistanceToBird
+  m_EditorClassIdentifier: 
+  Name: DistanceToBird
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 725528780
+    data2: 3164427745
+  Exists: 1
+--- !u!114 &-2107195096820044851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Steps
+  m_EditorClassIdentifier: 
+  Path: event:/Steps
+  guid: 664b526f3cd5ee4fa73ec11af708d763
+  Banks:
+  - {fileID: -6829280294076415741}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1284344466192509433}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 693
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,14 +164,15 @@ MonoBehaviour:
   - {fileID: 1307383572038165617}
   - {fileID: -3990642417075139003}
   - {fileID: 4069057060554889685}
+  - {fileID: 3272417248906964221}
   EditorParameters:
-  - {fileID: -4652487545344415021}
-  - {fileID: 342496303655150634}
+  - {fileID: -4050071070812492939}
+  - {fileID: -2377747238217962009}
   MasterBanks:
   - {fileID: -6829280294076415741}
   StringsBanks:
   - {fileID: 372194757469857837}
-  stringsBankWriteTime: 637451895940435599
+  stringsBankWriteTime: 637453805038659126
   cacheVersion: 5
 --- !u!114 &342496303655150634
 MonoBehaviour:
@@ -108,7 +193,7 @@ MonoBehaviour:
   ID:
     data1: 725528780
     data2: 3164427745
-  Exists: 1
+  Exists: 0
 --- !u!114 &372194757469857837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,11 +208,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637451895940435599
+  lastModified: 637453805038659126
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 948
+    Value: 1020
+  Exists: 1
+--- !u!114 &1284344466192509433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &1307383572038165617
 MonoBehaviour:
@@ -152,6 +257,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1372
+--- !u!114 &3272417248906964221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Steps
+  m_EditorClassIdentifier: 
+  Path: event:/Steps
+  guid: 664b526f3cd5ee4fa73ec11af708d763
+  Banks:
+  - {fileID: -6829280294076415741}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3718679258432519061}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 693
 --- !u!114 &4069057060554889685
 MonoBehaviour:
   m_ObjectHideFlags: 0

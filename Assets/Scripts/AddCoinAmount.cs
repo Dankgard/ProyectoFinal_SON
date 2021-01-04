@@ -13,12 +13,6 @@ public class AddCoinAmount : MonoBehaviour
         collider = GetComponent<BoxCollider>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
