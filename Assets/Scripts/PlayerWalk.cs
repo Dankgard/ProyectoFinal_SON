@@ -10,7 +10,7 @@ public class PlayerWalk : MonoBehaviour
 
     private void Start()
     {
-        FMODUnity.RuntimeManager.StudioSystem.getParameterByName("speed", out speed);
+        FMODUnity.RuntimeManager.StudioSystem.getParameterByName("Speed", out speed);
         controller = gameObject.GetComponent<MinifigController>();
     }
 
@@ -24,11 +24,17 @@ public class PlayerWalk : MonoBehaviour
                 GetComponent<FMODUnity.StudioEventEmitter>().Play();
 
             if (Input.GetKey(KeyCode.LeftShift))
-                speed = 0;
-            else
+            {
                 speed = 1;
+                controller.maxForwardSpeed = 26;
+            }
+            else
+            {
+                speed = 0;
+                controller.maxForwardSpeed = 13;
+            }
 
-            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("speed", speed);
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Speed", speed);
         }
         else
             GetComponent<FMODUnity.StudioEventEmitter>().Stop();
