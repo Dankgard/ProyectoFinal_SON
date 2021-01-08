@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{749e3831-b838-44d0-996e-ca7044cef666}">
+		<property name="name">
+			<value>CaveSFX</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{9a41617a-f3d4-4032-83bc-f1b131072006}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d8dffaa2-497e-4cd4-bcdb-4f1ab6164e9e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{89a6be72-5117-469e-b77f-bda1ceeaa895}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{9a41617a-f3d4-4032-83bc-f1b131072006}">
+		<relationship name="effects">
+			<destination>{66ebbd8c-6774-47fe-8789-2d760eb69a28}</destination>
+			<destination>{f6ce94b0-40a1-4857-b4c1-2fee929e4dee}</destination>
+			<destination>{41ff1a27-a597-4e2c-b48c-59de72275819}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d8dffaa2-497e-4cd4-bcdb-4f1ab6164e9e}" />
+	<object class="MixerBusFader" id="{66ebbd8c-6774-47fe-8789-2d760eb69a28}" />
+	<object class="Sidechain" id="{f6ce94b0-40a1-4857-b4c1-2fee929e4dee}" />
+	<object class="MixerSend" id="{41ff1a27-a597-4e2c-b48c-59de72275819}">
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{74bdb198-dad1-4c84-ab79-cbb6bf0832b0}</destination>
+		</relationship>
+	</object>
+</objects>
