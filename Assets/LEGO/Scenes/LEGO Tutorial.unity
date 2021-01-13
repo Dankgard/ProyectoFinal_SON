@@ -5162,7 +5162,7 @@ PrefabInstance:
     - target: {fileID: 4863899981031073045, guid: 08f194e70e6666c4d91b53a8fdc85470,
         type: 3}
       propertyPath: m_TagString
-      value: TutorialRequirement
+      value: ElectricFence
       objectReference: {fileID: 0}
     - target: {fileID: 4867859112375351631, guid: 08f194e70e6666c4d91b53a8fdc85470,
         type: 3}
@@ -37807,6 +37807,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1548576822}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1549687597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4863899981031073045, guid: 08f194e70e6666c4d91b53a8fdc85470,
+    type: 3}
+  m_PrefabInstance: {fileID: 242914014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1549687603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549687597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Electricity
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1549687604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549687597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed22d1da630a87246a7895bc91841a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1550531455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51368,7 +51409,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c9b59b794ef04a44e9ecbe158638805c, type: 2}
+  - {fileID: 2100000, guid: da3d053729cd2594f9e15f632cefd2d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -67540,7 +67581,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c9b59b794ef04a44e9ecbe158638805c, type: 2}
+  - {fileID: 2100000, guid: 0d364d934ce0e624db4ea57fa147bbdb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

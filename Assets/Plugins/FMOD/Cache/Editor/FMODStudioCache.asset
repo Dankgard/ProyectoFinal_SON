@@ -60,7 +60,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/Desktop/Master.bank
   Name: Master
-  lastModified: 637457060902771990
+  lastModified: 637461337685849839
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -207,6 +207,29 @@ MonoBehaviour:
     data1: 2715350467
     data2: 1980819418
   Exists: 1
+--- !u!114 &-3483256839792169194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Electricity
+  m_EditorClassIdentifier: 
+  Path: event:/Electricity
+  guid: c615d1b582cdad4b854341d8479c1e23
+  Banks:
+  - {fileID: -6829280294076415741}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-3288325338389172250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,6 +378,7 @@ MonoBehaviour:
   - {fileID: 4069057060554889685}
   - {fileID: 3272417248906964221}
   - {fileID: -8607664832083261640}
+  - {fileID: -3483256839792169194}
   EditorParameters:
   - {fileID: 7416198214897484343}
   - {fileID: -2915165917829489232}
@@ -363,7 +387,7 @@ MonoBehaviour:
   - {fileID: -6829280294076415741}
   StringsBanks:
   - {fileID: 372194757469857837}
-  stringsBankWriteTime: 637457060902841796
+  stringsBankWriteTime: 637461337685889867
   cacheVersion: 5
 --- !u!114 &342496303655150634
 MonoBehaviour:
@@ -399,11 +423,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637457060902841796
+  lastModified: 637461337685889867
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1110
+    Value: 1204
   Exists: 1
 --- !u!114 &765271474314923828
 MonoBehaviour:

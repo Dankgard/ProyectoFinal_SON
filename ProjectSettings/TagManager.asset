@@ -9,6 +9,7 @@ TagManager:
   - Coin
   - Bird
   - Explosion
+  - ElectricFence
   layers:
   - Default
   - TransparentFX

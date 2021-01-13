@@ -12,6 +12,7 @@ public class ExplosionTrigger : MonoBehaviour
         {
             triggered = true;
             GameObject.FindWithTag("Explosion").GetComponent<FMODUnity.StudioEventEmitter>().Play();
+            GameObject.FindWithTag("ElectricFence").GetComponent<FMODUnity.StudioEventEmitter>().Stop();
         }
     }
 }
