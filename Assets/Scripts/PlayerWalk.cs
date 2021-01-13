@@ -7,9 +7,11 @@ public class PlayerWalk : MonoBehaviour
 {
     float speed;
     MinifigController controller;
+    FMODUnity.StudioEventEmitter emitter;
 
     private void Start()
     {
+        emitter = GetComponent<FMODUnity.StudioEventEmitter>();
         FMODUnity.RuntimeManager.StudioSystem.getParameterByName("Speed", out speed);
         controller = gameObject.GetComponent<MinifigController>();
     }
@@ -20,8 +22,8 @@ public class PlayerWalk : MonoBehaviour
             Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
             && !controller.isAirborne())
         {
-            if (!GetComponent<FMODUnity.StudioEventEmitter>().IsPlaying())
-                GetComponent<FMODUnity.StudioEventEmitter>().Play();
+            if (!emitter.IsPlaying())
+                emitter.Play();
 
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -37,6 +39,6 @@ public class PlayerWalk : MonoBehaviour
             FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Speed", speed);
         }
         else
-            GetComponent<FMODUnity.StudioEventEmitter>().Stop();
+            emitter.Stop();
     }
 }

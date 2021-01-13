@@ -60,10 +60,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/Desktop/Master.bank
   Name: Master
-  lastModified: 637461337685849839
+  lastModified: 637461629271061372
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-5882795193447642721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience/Altitud
+  m_EditorClassIdentifier: 
+  Name: Altitud
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-5490410184480043951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,6 +104,29 @@ MonoBehaviour:
     data1: 2897860447
     data2: 2904150878
   Exists: 1
+--- !u!114 &-5312122594664599771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Land
+  m_EditorClassIdentifier: 
+  Path: event:/Land
+  guid: 1edabf87030a374f96bfd403860a21d8
+  Banks:
+  - {fileID: -6829280294076415741}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4652487545344415021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,6 +400,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 693
+--- !u!114 &-1129117903380042554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience
+  guid: 6c2404986af41e41938786ba1f92027e
+  Banks:
+  - {fileID: -6829280294076415741}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5126
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,15 +445,19 @@ MonoBehaviour:
   - {fileID: 3272417248906964221}
   - {fileID: -8607664832083261640}
   - {fileID: -3483256839792169194}
+  - {fileID: -1129117903380042554}
+  - {fileID: -5312122594664599771}
+  - {fileID: 6356299903084672068}
   EditorParameters:
   - {fileID: 7416198214897484343}
   - {fileID: -2915165917829489232}
   - {fileID: 765271474314923828}
+  - {fileID: 4947844173774370516}
   MasterBanks:
   - {fileID: -6829280294076415741}
   StringsBanks:
   - {fileID: 372194757469857837}
-  stringsBankWriteTime: 637461337685889867
+  stringsBankWriteTime: 637461629272909435
   cacheVersion: 5
 --- !u!114 &342496303655150634
 MonoBehaviour:
@@ -423,11 +493,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637461337685889867
+  lastModified: 637461629272909435
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1204
+    Value: 1352
   Exists: 1
 --- !u!114 &765271474314923828
 MonoBehaviour:
@@ -618,6 +688,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &4947844173774370516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Altitud
+  m_EditorClassIdentifier: 
+  Name: Altitud
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 2113853198
+    data2: 3544296800
+  Exists: 1
 --- !u!114 &5039872150671675234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,6 +731,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &5496822548053764247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience/Altitud
+  m_EditorClassIdentifier: 
+  Name: Altitud
+  Min: 0
+  Max: 30
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &5675399309093602837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,6 +771,29 @@ MonoBehaviour:
     data1: 725528780
     data2: 3164427745
   Exists: 1
+--- !u!114 &6356299903084672068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Jump
+  guid: faa6336d5e65f141b5a40082e8d1bb2c
+  Banks:
+  - {fileID: -6829280294076415741}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &7416198214897484343
 MonoBehaviour:
   m_ObjectHideFlags: 0
