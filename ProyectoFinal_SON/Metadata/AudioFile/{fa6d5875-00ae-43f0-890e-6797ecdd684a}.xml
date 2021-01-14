@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{85154ca1-305c-4f7e-b2a3-2805bede878e}">
+	<object class="AudioFile" id="{fa6d5875-00ae-43f0-890e-6797ecdd684a}">
 		<property name="assetPath">
-			<value>Alive - Gnome.ogg</value>
+			<value>2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>1.3749886621315193</value>
+			<value>0.90245833333333336</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{a568019a-8803-467d-8d03-ad6b2e128b63}</destination>

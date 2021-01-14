@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{482c9aaa-6025-4074-b283-3cabaed64b54}">
+	<object class="AudioFile" id="{346446a9-6cd9-479f-a12f-dff333c22126}">
 		<property name="assetPath">
-			<value>Alive - Goblin.ogg</value>
+			<value>1604_on_Exh.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.7084583333333333</value>
+			<value>1.4155625000000001</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{a568019a-8803-467d-8d03-ad6b2e128b63}</destination>

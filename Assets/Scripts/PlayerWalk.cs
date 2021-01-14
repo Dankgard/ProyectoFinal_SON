@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Unity.LEGO.Minifig;
+﻿using Unity.LEGO.Minifig;
 using UnityEngine;
 
 public class PlayerWalk : MonoBehaviour

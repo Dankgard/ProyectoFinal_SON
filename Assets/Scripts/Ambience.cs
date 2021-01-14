@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Ambience : MonoBehaviour
 {
@@ -16,7 +14,6 @@ public class Ambience : MonoBehaviour
     void Update()
     {
         altitud = player.transform.position.y;
-        Debug.Log(altitud);
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Altitud", altitud);
     }
 }

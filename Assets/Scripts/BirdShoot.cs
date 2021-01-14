@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BirdShoot : MonoBehaviour
 {
@@ -8,7 +6,6 @@ public class BirdShoot : MonoBehaviour
     Transform birdTransform;
     float distance;
 
-    // Start is called before the first frame update
     void Awake()
     {
         playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
@@ -16,11 +13,5 @@ public class BirdShoot : MonoBehaviour
         distance = Vector3.Distance(playerTransform.position, birdTransform.position);
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DistanceToBird", Mathf.Min(30, distance));
         GetComponent<FMODUnity.StudioEventEmitter>().Play();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

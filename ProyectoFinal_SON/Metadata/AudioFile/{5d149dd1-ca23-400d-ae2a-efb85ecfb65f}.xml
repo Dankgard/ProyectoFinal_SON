@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{257b057f-3824-412d-806e-0b04e3626be3}">
+	<object class="AudioFile" id="{5d149dd1-ca23-400d-ae2a-efb85ecfb65f}">
 		<property name="assetPath">
-			<value>Alive - Critter.ogg</value>
+			<value>1648_off_Exh.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.40841666666666665</value>
+			<value>0.90974999999999995</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{a568019a-8803-467d-8d03-ad6b2e128b63}</destination>

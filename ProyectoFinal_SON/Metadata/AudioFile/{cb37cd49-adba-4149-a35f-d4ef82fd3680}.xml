@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{5879239a-05ed-4811-92dc-a99f53c0a5ed}">
+	<object class="AudioFile" id="{cb37cd49-adba-4149-a35f-d4ef82fd3680}">
 		<property name="assetPath">
-			<value>Alive - Robotto.ogg</value>
+			<value>0879_on_Exh.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.72395833333333337</value>
+			<value>0.91729166666666662</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{a568019a-8803-467d-8d03-ad6b2e128b63}</destination>
