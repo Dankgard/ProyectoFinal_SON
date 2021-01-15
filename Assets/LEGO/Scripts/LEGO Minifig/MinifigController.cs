@@ -101,7 +101,7 @@ namespace Unity.LEGO.Minifig
         [SerializeField]
         InputType inputType = InputType.Tank;
         [SerializeField]
-        bool inputEnabled = true;
+        public bool inputEnabled = true;
         [SerializeField, Range(0, 10)]
         int maxJumpsInAir = 1;
 

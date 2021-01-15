@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{5fa7b702-0d62-4248-a180-0fd59f9c3e5c}">
+		<property name="name">
+			<value>Marcha</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5166a84d-0bc3-4142-8fb3-0ac589d82f49}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9c7481cd-7940-4e4e-ae82-4a5244ea098e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9c7481cd-7940-4e4e-ae82-4a5244ea098e}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
