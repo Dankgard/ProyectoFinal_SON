@@ -3010,6 +3010,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 128077862}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &128077870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128077863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d6f202fbeca4a4dbaadd6ea8d9aa24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: 1
+--- !u!65 &128077871
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128077863}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.7641664, y: 2.260848, z: 4.405836}
+  m_Center: {x: -0.053261995, y: 0.630424, z: 0.4803664}
 --- !u!1001 &129754631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29998,6 +30024,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jukebox
       objectReference: {fileID: 0}
+    - target: {fileID: 1654247899680429979, guid: b0a3ca1d22253443c9c359be6add26eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Juxebox
+      objectReference: {fileID: 0}
     - target: {fileID: 1745859633713247329, guid: b0a3ca1d22253443c9c359be6add26eb,
         type: 3}
       propertyPath: m_LocalRotation.z
@@ -31699,7 +31730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: 
+  Event: event:/JuxeboxMusic
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
@@ -31707,23 +31738,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
---- !u!114 &1320218904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320218902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85d6f202fbeca4a4dbaadd6ea8d9aa24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  centerButton: {fileID: 1352543654}
-  leftButton: {fileID: 128077863}
-  rightButton: {fileID: 1794226237}
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!4 &1321798822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1001764359956896701, guid: 2e71bfa7eed3a41f788a600ef863e7b1,
@@ -33991,6 +34007,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1352543653}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1352543661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352543654}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.7641664, y: 2.260848, z: 4.405836}
+  m_Center: {x: -0.053261995, y: 0.630424, z: 0.4803664}
+--- !u!114 &1352543662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352543654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d6f202fbeca4a4dbaadd6ea8d9aa24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: 2
 --- !u!1 &1358911228
 GameObject:
   m_ObjectHideFlags: 0
@@ -45028,6 +45070,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1794226236}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1794226244
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794226237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.7641664, y: 2.260848, z: 4.405836}
+  m_Center: {x: -0.053261995, y: 0.630424, z: 0.4803664}
+--- !u!114 &1794226245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794226237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d6f202fbeca4a4dbaadd6ea8d9aa24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: 3
 --- !u!1001 &1807203246
 PrefabInstance:
   m_ObjectHideFlags: 0

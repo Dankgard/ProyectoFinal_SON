@@ -23,7 +23,6 @@ public class Vehicle : MonoBehaviour
 
         if (on)
         {
-            Debug.Log("marcha " + marcha);
             if (marcha > 0 && Input.GetKeyDown(KeyCode.Z))
             {
                 marcha--;
@@ -43,7 +42,6 @@ public class Vehicle : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             on = true;
-            Debug.Log("mount");
             GetComponent<FMODUnity.StudioEventEmitter>().Play();
             player.inputEnabled = false;
         }
@@ -54,7 +52,6 @@ public class Vehicle : MonoBehaviour
         if(on && Input.GetKey(KeyCode.Space))
         {
             on = false;
-            Debug.Log("unmount");
             GetComponent<FMODUnity.StudioEventEmitter>().Stop();
             player.inputEnabled = true;
         }
