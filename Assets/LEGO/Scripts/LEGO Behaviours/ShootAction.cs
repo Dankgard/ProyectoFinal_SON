@@ -59,7 +59,7 @@ namespace Unity.LEGO.Behaviours.Actions
             }
         }
 
-        void Fire()
+        public void Fire()
         {
             if (m_Projectile)
             {

@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="ParameterPreset" id="{5fa7b702-0d62-4248-a180-0fd59f9c3e5c}">
+	<object class="ParameterPreset" id="{bf98ceec-5d7c-4e2f-bca1-976424214211}">
 		<property name="name">
-			<value>Marcha</value>
+			<value>Power</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5166a84d-0bc3-4142-8fb3-0ac589d82f49}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{9c7481cd-7940-4e4e-ae82-4a5244ea098e}</destination>
+			<destination>{88bb4d01-6b06-4fa2-b553-41554ccc695d}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{9c7481cd-7940-4e4e-ae82-4a5244ea098e}">
+	<object class="GameParameter" id="{88bb4d01-6b06-4fa2-b553-41554ccc695d}">
+		<property name="maximum">
+			<value>90</value>
+		</property>
 		<property name="isGlobal">
 			<value>true</value>
 		</property>

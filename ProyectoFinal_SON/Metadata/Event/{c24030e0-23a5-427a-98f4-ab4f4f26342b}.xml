@@ -108,6 +108,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{2ed0461c-adfc-4cb8-bbe2-082ea32a7a4c}" />
 	<object class="SingleSound" id="{8b8f3806-d381-4352-8c07-47f0dc214b85}">
+		<property name="length">
+			<value>0.25</value>
+		</property>
 		<property name="volume">
 			<value>4.5</value>
 		</property>
@@ -120,7 +123,10 @@
 	</object>
 	<object class="SingleSound" id="{0fe5a8e1-540a-4aa1-972c-9c4a0ac2383d}">
 		<property name="start">
-			<value>1</value>
+			<value>0.25</value>
+		</property>
+		<property name="length">
+			<value>0.25</value>
 		</property>
 		<property name="volume">
 			<value>5</value>
@@ -134,7 +140,10 @@
 	</object>
 	<object class="SingleSound" id="{49bea963-2021-4967-837a-512b7f4008fb}">
 		<property name="start">
-			<value>1</value>
+			<value>0.25</value>
+		</property>
+		<property name="length">
+			<value>0.25</value>
 		</property>
 		<property name="volume">
 			<value>5</value>
@@ -148,7 +157,10 @@
 	</object>
 	<object class="SingleSound" id="{c53358c2-34ac-40bc-8d8d-6a112247e00d}">
 		<property name="start">
-			<value>2</value>
+			<value>0.5</value>
+		</property>
+		<property name="length">
+			<value>0.25</value>
 		</property>
 		<property name="volume">
 			<value>5</value>
@@ -162,7 +174,10 @@
 	</object>
 	<object class="SingleSound" id="{8b09cf94-4d62-4c9b-8b93-d525b9dd7102}">
 		<property name="start">
-			<value>2</value>
+			<value>0.5</value>
+		</property>
+		<property name="length">
+			<value>0.25</value>
 		</property>
 		<property name="volume">
 			<value>5</value>
@@ -176,7 +191,10 @@
 	</object>
 	<object class="SingleSound" id="{3846c438-796f-4115-9775-96b2feedf9ba}">
 		<property name="start">
-			<value>3</value>
+			<value>0.75</value>
+		</property>
+		<property name="length">
+			<value>0.25</value>
 		</property>
 		<property name="volume">
 			<value>5</value>
@@ -190,7 +208,10 @@
 	</object>
 	<object class="SingleSound" id="{612342f9-ea51-4ec1-a132-95f4b89bc94c}">
 		<property name="start">
-			<value>3</value>
+			<value>0.75</value>
+		</property>
+		<property name="length">
+			<value>0.25</value>
 		</property>
 		<property name="volume">
 			<value>5</value>

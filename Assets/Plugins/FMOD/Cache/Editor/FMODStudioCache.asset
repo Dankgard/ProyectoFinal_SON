@@ -83,7 +83,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/Desktop/Master.bank
   Name: Master
-  lastModified: 637463165977041310
+  lastModified: 637464120073632915
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -170,6 +170,29 @@ MonoBehaviour:
     data1: 2715350467
     data2: 1980819418
   Exists: 0
+--- !u!114 &-4359297032638494126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Engine2
+  m_EditorClassIdentifier: 
+  Path: event:/Engine2
+  guid: b0a0fe8eebec4f4090afcaeae86d5aaa
+  Banks:
+  - {fileID: -6829280294076415741}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4106194916694142021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,6 +422,26 @@ MonoBehaviour:
     data1: 725528780
     data2: 3164427745
   Exists: 1
+--- !u!114 &-2577603365285806012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Power
+  m_EditorClassIdentifier: 
+  Name: Power
+  Min: 0
+  Max: 90
+  Default: 0
+  ID:
+    data1: 1213989554
+    data2: 2556139289
+  Exists: 1
 --- !u!114 &-2377747238217962009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,17 +536,20 @@ MonoBehaviour:
   - {fileID: 6356299903084672068}
   - {fileID: 9184797572839102495}
   - {fileID: -8835302882986507947}
+  - {fileID: -4359297032638494126}
   EditorParameters:
   - {fileID: 7416198214897484343}
   - {fileID: -2915165917829489232}
   - {fileID: 765271474314923828}
   - {fileID: 4947844173774370516}
   - {fileID: -3325756701215551486}
+  - {fileID: 6891439738847248914}
+  - {fileID: -2577603365285806012}
   MasterBanks:
   - {fileID: -6829280294076415741}
   StringsBanks:
   - {fileID: 372194757469857837}
-  stringsBankWriteTime: 637463165977111098
+  stringsBankWriteTime: 637464120073653179
   cacheVersion: 5
 --- !u!114 &342496303655150634
 MonoBehaviour:
@@ -539,11 +585,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637463165977111098
+  lastModified: 637464120073653179
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1526
+    Value: 1604
   Exists: 1
 --- !u!114 &765271474314923828
 MonoBehaviour:
@@ -817,6 +863,26 @@ MonoBehaviour:
     data1: 725528780
     data2: 3164427745
   Exists: 1
+--- !u!114 &6045396109225534854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Engine2/Power
+  m_EditorClassIdentifier: 
+  Name: Power
+  Min: 0
+  Max: 90
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &6356299903084672068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -840,6 +906,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &6891439738847248914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Marcha
+  m_EditorClassIdentifier: 
+  Name: Marcha
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4151175249
+    data2: 149665319
+  Exists: 1
 --- !u!114 &7416198214897484343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -880,6 +966,26 @@ MonoBehaviour:
     data1: 2715350467
     data2: 1980819418
   Exists: 1
+--- !u!114 &7881125517246313253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Engine2/Revoluciones
+  m_EditorClassIdentifier: 
+  Name: Revoluciones
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &8089635301174422211
 MonoBehaviour:
   m_ObjectHideFlags: 0
